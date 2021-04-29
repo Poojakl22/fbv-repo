@@ -1,0 +1,21 @@
+<html>
+   <body>
+          <h1>Employee Details</h1>
+     <table border="2">
+      <tr>
+          <th>Number</th>
+          <th>name</th>
+          <th>salary</th>
+          <th>Address</th>
+     </tr1>
+     {% for x in emp %}
+      <tr>
+         <td>{{x.eno}}</td>
+         <td>{{x.ename}}</td>
+         <td>{{x.esal}}</td>
+         <td>{{x.eaddr}}</td>
+      </tr>
+        {%endfor%}
+     </table>
+  </body>
+</html>
